@@ -11,7 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 
 import Router from "../../router/router";
 import developer from "../../assets/images/developer-icon.png";
@@ -69,7 +69,7 @@ function ResponsiveAppBar() {
         <Container maxWidth="xl">
           <Toolbar disableGutters>
             <NavLink to={HOME_PAGE} className="flex items-center gap-1">
-              <DeveloperModeIcon
+              <AccountBalanceIcon
                 sx={{ display: { xs: "none", md: "flex" }, mr: 1 }}
               />
               <Typography
@@ -133,7 +133,7 @@ function ResponsiveAppBar() {
                 ))}
               </Menu>
             </Box>
-            <DeveloperModeIcon
+            <AccountBalanceIcon
               sx={{ display: { xs: "flex", md: "none" }, mr: 1 }}
             />
             <Typography

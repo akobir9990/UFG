@@ -12,7 +12,9 @@ function HomePage() {
             УЗБЕКИСТАН
           </h1>
           <h2>ТАШКЕНТСКИЙ ФИНАНСОВЫЙ ИНСТИТУТ</h2>
-          <h2 className="md:text-3xl text-xl mb-2">н.э.Жиянова, Х.М.Исаев</h2>
+          <h2 className="md:text-3xl text-xl mb-2 uppercase">
+            Н.Э.Жиянова, Х.М.Исаев
+          </h2>
 
           <h1 className="md:text-3xl text-xl font-bold my-5">
             «Управление госфинансами»
