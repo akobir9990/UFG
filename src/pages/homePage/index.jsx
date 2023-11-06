@@ -17,7 +17,7 @@ function HomePage() {
           </h2>
 
           <h1 className="md:text-3xl text-xl font-bold my-5">
-            «Управление госфинансами»
+            «Управление государственными финансами»
           </h1>
           <h2 className="md:text-3xl text-4 mb-4">ИННОВАЦИОННЫЙ ВЕБ УЧЕБНИК</h2>
           <h3 className="">Специальность магистратуры:</h3>
